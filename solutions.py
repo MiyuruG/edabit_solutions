@@ -22,3 +22,21 @@ def bool_to_string(flag):
 	if flag:
 		return "True"
 	return "False"
+
+
+def calculator(num1, operator, num2):
+	"""
+	https://edabit.com/challenge/ZdnwC3PsXPQTdTiKf
+	calculator to deal with two numbers
+	"""
+	if num2 == 0 and operator == '/':
+		return "Can't divide by 0!"
+	
+	if operator == "+":
+		return num1+num2
+	elif operator == "-":
+		return num1-num2
+	elif operator == "*":
+		return num1*num2
+	elif operator == "/":
+		return num1/num2
