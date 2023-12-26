@@ -4,8 +4,7 @@ def convert(hours, minutes):
 	https://edabit.com/challenge/PjcKZRx8YE5KzRN63
 	solution for converting hours and minutes to seconds
 	"""
-	z=(3600*hours)+(60*minutes)
-	return z
+	return (3600*hours)+(60*minutes)
 
 def addition(a, b):
 	"""
@@ -40,3 +39,28 @@ def calculator(num1, operator, num2):
 		return num1*num2
 	elif operator == "/":
 		return num1/num2
+	
+def sum_odd_and_even(lst):
+	"""
+	https://edabit.com/challenge/5XXXppAdfcGaootD9
+	Return a list of odd and even sums
+	"""
+	odd_sum = 0
+	even_sum = 0
+	
+	for element in lst:
+		if (element%2) == 0:
+			even_sum = even_sum+element
+		else:
+			odd_sum = odd_sum+element
+		
+	osnda_lst = [even_sum, odd_sum]
+	return osnda_lst
+
+
+def list_of_multiples(num, length):
+	lst_of_multiples = list()
+	
+	for x in range(1, length+1):
+		lst_of_multiples.append(x*num)
+	return lst_of_multiples
