@@ -61,6 +61,10 @@ def sum_odd_and_even(lst):
 
 
 def list_of_multiples(num, length):
+    """
+    https://edabit.com/challenge/BuwHwPvt92yw574zB
+    TODO: Miyuru will add more description
+    """
     return_list = list()
     x = 0
     while True:
