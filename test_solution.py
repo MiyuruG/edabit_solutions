@@ -13,5 +13,8 @@ Test.assert_equals(addition(2,3), 5)
 Test.assert_equals(addition(-3,-6), -9)
 Test.assert_equals(addition(7,3), 10)
 
+Test.assert_equals(bool_to_string(True), "True")
+Test.assert_equals(bool_to_string(False), "False")
+
 
 """

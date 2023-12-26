@@ -13,3 +13,12 @@ def addition(a, b):
 	https://edabit.com/challenge/rZToTkR5eB9Zn4zLh
 	"""
 	return a+b
+
+def bool_to_string(flag):
+	"""
+	https://edabit.com/challenge/QQp2o22huzBCkHesy
+	converting boolean to string
+	"""
+	if flag:
+		return "True"
+	return "False"
