@@ -1,7 +1,15 @@
+
 def convert(hours, minutes):
-	#solution for converting hours and minutes to seconds
+	"""
+	https://edabit.com/challenge/PjcKZRx8YE5KzRN63
+	solution for converting hours and minutes to seconds
+	"""
 	z=(3600*hours)+(60*minutes)
 	return z
-Test.assert_equals(convert(1, 0), 3600)
-Test.assert_equals(convert(1, 3), 3780)
-Test.assert_equals(convert(0, 30), 1800)
+
+def addition(a, b):
+	"""
+	addition of two numbers
+	https://edabit.com/challenge/rZToTkR5eB9Zn4zLh
+	"""
+	return a+b
