@@ -14,7 +14,7 @@ class Test_Solutions(unittest.TestCase):
         self.assertEqual(sum_odd_and_even([]), [0, 0])
 
     def test_list_of_multiples(self):
-        self.assertEqual(list_of_multiples(7, 5), [7, 14, 21, 28, 35])
+        self.assertEqual(list_of_multiples(7, 5),[7, 14, 21, 28, 35])
         self.assertEqual(list_of_multiples(12, 10), [12, 24, 36, 48, 60, 72, 84, 96, 108, 120])
         self.assertEqual(list_of_multiples(17, 7), [17, 34, 51, 68, 85, 102, 119])
         self.assertEqual(list_of_multiples(630, 14), [630, 1260, 1890, 2520, 3150, 3780, 4410, 5040, 5670, 6300, 6930, 7560, 8190, 8820])
