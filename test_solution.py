@@ -51,5 +51,11 @@ Test.assert_equals(animals(3, 4, 7), 50)
 Test.assert_equals(animals(1, 2, 3), 22)
 Test.assert_equals(animals(3, 5, 2), 34)
 
+Test.assert_equals(squared(10), 100, "Expected 100")
+Test.assert_equals(squared(69), 4761, "Expected 4761")
+Test.assert_equals(squared(666), 443556, "Expected 443556")
+Test.assert_equals(squared(-21), 441, "Expected 441")
+Test.assert_equals(squared(21), 441, "Expected 441")
+
 
 """
