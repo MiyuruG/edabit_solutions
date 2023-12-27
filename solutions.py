@@ -86,5 +86,9 @@ Right the first time!"""
 	return (2*chickens)+(4*cows)+(4*pigs)
 
 def squared(b):
-    """https://edabit.com/challenge/sLkTkfLgZYs5wejsg"""
+"""https://edabit.com/challenge/sLkTkfLgZYs5wejsg"""
     return b * b
+
+def football_points(wins, draws, losses):
+    """no google/chat gpt https://edabit.com/challenge/gwqqc5p3oiFXRJAQm"""
+	return (3*wins)+(1*draws)+(0*losses)

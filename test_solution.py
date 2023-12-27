@@ -57,5 +57,11 @@ Test.assert_equals(squared(666), 443556, "Expected 443556")
 Test.assert_equals(squared(-21), 441, "Expected 441")
 Test.assert_equals(squared(21), 441, "Expected 441")
 
+Test.assert_equals(football_points(1, 2, 3), 5)
+Test.assert_equals(football_points(5, 5, 5), 20)
+Test.assert_equals(football_points(1, 0, 0), 3)
+Test.assert_equals(football_points(0, 7, 0), 7)
+Test.assert_equals(football_points(0, 0, 15), 0)
+
 
 """
