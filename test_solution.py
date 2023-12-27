@@ -63,5 +63,11 @@ Test.assert_equals(football_points(1, 0, 0), 3)
 Test.assert_equals(football_points(0, 7, 0), 7)
 Test.assert_equals(football_points(0, 0, 15), 0)
 
+Test.assert_equals(cubes(2), 8)
+Test.assert_equals(cubes(3), 27)
+Test.assert_equals(cubes(4), 64)
+Test.assert_equals(cubes(5), 125)
+Test.assert_equals(cubes(10), 1000)
+
 
 """

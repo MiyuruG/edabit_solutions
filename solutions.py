@@ -92,3 +92,7 @@ def squared(b):
 def football_points(wins, draws, losses):
     """no google/chat gpt https://edabit.com/challenge/gwqqc5p3oiFXRJAQm"""
 	return (3*wins)+(1*draws)+(0*losses)
+
+def cubes(a):
+    """https://edabit.com/challenge/CjXamaNRmKxwkmBxq no google/chat gpt"""
+	return a ** 3
