@@ -73,3 +73,9 @@ def list_of_multiples(num, length):
         if length <= x:
             break
     return return_list
+
+def hello():
+    """https://edabit.com/challenge/8ym3dKrL3svkYr4h4
+        the easiest one
+    """
+	return "hello edabit.com"
