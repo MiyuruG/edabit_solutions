@@ -46,5 +46,10 @@ Test.assert_equals(sum_odd_and_even([]), [0, 0])
 
 Test.assert_equals(hello(), "hello edabit.com")
 
+Test.assert_equals(animals(5, 2, 8), 50)
+Test.assert_equals(animals(3, 4, 7), 50)
+Test.assert_equals(animals(1, 2, 3), 22)
+Test.assert_equals(animals(3, 5, 2), 34)
+
 
 """

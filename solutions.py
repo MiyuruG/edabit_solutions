@@ -79,3 +79,8 @@ def hello():
         the easiest one
     """
 	return "hello edabit.com"
+
+def animals(chickens, cows, pigs)
+"""https://edabit.com/challenge/QzXtDnSZL6y4ZcEvT
+Right the first time!"""
+	return (2*chickens)+(4*cows)+(4*pigs)
