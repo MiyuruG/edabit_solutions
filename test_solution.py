@@ -43,4 +43,7 @@ Test.assert_equals(sum_odd_and_even([-1, -2, -3, -4, -5, -6]), [-12, -9])
 Test.assert_equals(sum_odd_and_even([0, 0]), [0, 0])
 Test.assert_equals(sum_odd_and_even([]), [0, 0])
 
+
+Test.assert_equals(hello(), "hello edabit.com")
+
 """
