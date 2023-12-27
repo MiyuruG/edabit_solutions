@@ -73,5 +73,14 @@ Test.assert_equals(less_than_or_equal_to_zero(5), False)
 Test.assert_equals(less_than_or_equal_to_zero(0), True)
 Test.assert_equals(less_than_or_equal_to_zero(-5), True)
 
+Test.assert_equals(points(1, 1),5)
+Test.assert_equals(points(1, 2), 8)
+Test.assert_equals(points(2, 1), 7)
+Test.assert_equals(points(2, 2), 10)
+Test.assert_equals(points(69, 420), 1398)
+
+#Made by c h a e r (11level360) 
+#              <3
+
 
 """

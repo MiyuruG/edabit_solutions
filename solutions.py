@@ -101,3 +101,8 @@ def less_than_or_equal_to_zero(num):
     """https://edabit.com/challenge/Rx2pkSA9dCmtwS8xt
     i only use w3 school!"""
 	return (num<=0)
+
+def points(twopointers, threepointers):
+    """https://edabit.com/challenge/KWnJrMzK9CumnfxTF
+    no google/chat gpt"""
+	return (2*twopointers)+(3*threepointers)
