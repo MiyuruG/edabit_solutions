@@ -69,5 +69,9 @@ Test.assert_equals(cubes(4), 64)
 Test.assert_equals(cubes(5), 125)
 Test.assert_equals(cubes(10), 1000)
 
+Test.assert_equals(less_than_or_equal_to_zero(5), False)
+Test.assert_equals(less_than_or_equal_to_zero(0), True)
+Test.assert_equals(less_than_or_equal_to_zero(-5), True)
+
 
 """

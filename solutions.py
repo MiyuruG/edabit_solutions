@@ -96,3 +96,8 @@ def football_points(wins, draws, losses):
 def cubes(a):
     """https://edabit.com/challenge/CjXamaNRmKxwkmBxq no google/chat gpt"""
 	return a ** 3
+
+def less_than_or_equal_to_zero(num):
+    """https://edabit.com/challenge/Rx2pkSA9dCmtwS8xt
+    i only use w3 school!"""
+	return (num<=0)
