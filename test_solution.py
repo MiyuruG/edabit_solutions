@@ -83,4 +83,16 @@ Test.assert_equals(points(69, 420), 1398)
 #              <3
 
 
+Test.assert_equals(makes10(9, 10), True)	
+Test.assert_equals(makes10(9, 9), False)	
+Test.assert_equals(makes10(1, 9), True)	
+Test.assert_equals(makes10(10, 1), True)	
+Test.assert_equals(makes10(10, 10), True)	
+Test.assert_equals(makes10(8, 2), True)	
+Test.assert_equals(makes10(8, 3), False)	
+Test.assert_equals(makes10(10, 42), True)	
+Test.assert_equals(makes10(12, -2), True)
+
+
+
 """

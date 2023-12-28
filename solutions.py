@@ -106,3 +106,9 @@ def points(twopointers, threepointers):
     """https://edabit.com/challenge/KWnJrMzK9CumnfxTF
     no google/chat gpt"""
 	return (2*twopointers)+(3*threepointers)
+
+def makes10(a, b):
+    """https://edabit.com/challenge/HuWQaCpFR7iTeCvTm
+    When the time box was over, I asked the chat gpt.
+    """
+    return a == 10 or b == 10 or a + b == 10
