@@ -112,3 +112,8 @@ def makes10(a, b):
     When the time box was over, I asked the chat gpt.
     """
     return a == 10 or b == 10 or a + b == 10
+def less_than_100(a, b):
+    """https://edabit.com/challenge/pZ3HxBfvejsvkEDo4
+    no google/chat gpt
+    Done in 3 minutes!"""
+	return a+b <=100
