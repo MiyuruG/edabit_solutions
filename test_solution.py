@@ -118,4 +118,11 @@ Test.assert_equals(less_than_100(21, 79), False)
 Test.assert_equals(circuit_power(110, 3), 330)
 Test.assert_equals(circuit_power(230, 10), 2300)
 Test.assert_equals(circuit_power(480, 20), 9600)
+
+Test.assert_equals(is_same_num(4, 8), False)
+Test.assert_equals(is_same_num(2, 2), True)
+Test.assert_equals(is_same_num(0, 6), False)
+Test.assert_equals(is_same_num(2, "2"), False)
+
+# Originally created by @Vladislav Kobylnyk
 """

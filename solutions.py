@@ -124,3 +124,8 @@ def circuit_power(voltage, current):
     no google/chat gpt
     Done in 1 minute"""
     return voltage * current
+
+def is_same_num(num1, num2):
+    """https: // edabit.com / challenge / yfooETHj3sHoHTJsv
+    no google/chat gpt"""
+	return num1==num2
