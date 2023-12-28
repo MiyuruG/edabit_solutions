@@ -117,3 +117,10 @@ def less_than_100(a, b):
     no google/chat gpt
     Done in 3 minutes!"""
 	return a+b <=100
+
+
+def circuit_power(voltage, current):
+    """https://edabit.com/challenge/v5gc8FQkDEepkqpfp
+    no google/chat gpt
+    Done in 1 minute"""
+    return voltage * current

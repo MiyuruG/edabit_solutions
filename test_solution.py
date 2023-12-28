@@ -114,4 +114,8 @@ Test.assert_equals(less_than_100(74, 89), False)
 Test.assert_equals(less_than_100(3, 27), True)
 Test.assert_equals(less_than_100(21, 79), False)
 
+
+Test.assert_equals(circuit_power(110, 3), 330)
+Test.assert_equals(circuit_power(230, 10), 2300)
+Test.assert_equals(circuit_power(480, 20), 9600)
 """
