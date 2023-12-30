@@ -74,49 +74,59 @@ def list_of_multiples(num, length):
             break
     return return_list
 
+
 def hello():
     """https://edabit.com/challenge/8ym3dKrL3svkYr4h4
         the easiest one
     """
-	return "hello edabit.com"
+    return "hello edabit.com"
 
-def animals(chickens, cows, pigs)
-"""https://edabit.com/challenge/QzXtDnSZL6y4ZcEvT
-Right the first time!"""
-	return (2*chickens)+(4*cows)+(4*pigs)
+
+def animals(chickens, cows, pigs):
+    """https://edabit.com/challenge/QzXtDnSZL6y4ZcEvT
+    Right the first time!"""
+    return (2 * chickens) + (4 * cows) + (4 * pigs)
+
 
 def squared(b):
-"""https://edabit.com/challenge/sLkTkfLgZYs5wejsg"""
+    """https://edabit.com/challenge/sLkTkfLgZYs5wejsg"""
     return b * b
+
 
 def football_points(wins, draws, losses):
     """no google/chat gpt https://edabit.com/challenge/gwqqc5p3oiFXRJAQm"""
-	return (3*wins)+(1*draws)+(0*losses)
+    return (3 * wins) + (1 * draws) + (0 * losses)
+
 
 def cubes(a):
     """https://edabit.com/challenge/CjXamaNRmKxwkmBxq no google/chat gpt"""
-	return a ** 3
+    return a ** 3
+
 
 def less_than_or_equal_to_zero(num):
     """https://edabit.com/challenge/Rx2pkSA9dCmtwS8xt
     i only use w3 school!"""
-	return (num<=0)
+    return (num <= 0)
+
 
 def points(twopointers, threepointers):
     """https://edabit.com/challenge/KWnJrMzK9CumnfxTF
     no google/chat gpt"""
-	return (2*twopointers)+(3*threepointers)
+    return (2 * twopointers) + (3 * threepointers)
+
 
 def makes10(a, b):
     """https://edabit.com/challenge/HuWQaCpFR7iTeCvTm
     When the time box was over, I asked the chat gpt.
     """
     return a == 10 or b == 10 or a + b == 10
+
+
 def less_than_100(a, b):
     """https://edabit.com/challenge/pZ3HxBfvejsvkEDo4
     no google/chat gpt
     Done in 3 minutes!"""
-	return a+b <=100
+    return a + b < 100
 
 
 def circuit_power(voltage, current):
@@ -125,7 +135,8 @@ def circuit_power(voltage, current):
     Done in 1 minute"""
     return voltage * current
 
+
 def is_same_num(num1, num2):
     """https: // edabit.com / challenge / yfooETHj3sHoHTJsv
     no google/chat gpt"""
-	return num1==num2
+    return num1 == num2
