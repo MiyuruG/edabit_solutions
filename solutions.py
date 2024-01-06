@@ -167,7 +167,6 @@ def circle_or_square(radius, area):
 
     # Calculate the perimeter of the square
     square_perimeter = 4 * side_length
-
     # Compare the circumference of the circle and the perimeter of the square
     return circumference > square_perimeter
 
