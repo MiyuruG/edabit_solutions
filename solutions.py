@@ -170,5 +170,19 @@ def circle_or_square(radius, area):
     # Compare the circumference of the circle and the perimeter of the square
     return circumference > square_perimeter
 
+def relation_to_luke(name):
+    """https: // edabit.com / challenge / 8
+    pDH2SRutPoaQghgc
+    chat gpte's code.my timebox over"""
+
+    relations = {
+        "Darth Vader": "father",
+        "Leia": "sister",
+        "Han": "brother in law",
+        "R2D2": "droid"
+    }
+
+    return "Luke, I am your {}.".format(relations.get(name, 'unknown person'))
+
 
 

@@ -147,6 +147,13 @@ class Test_Solutions(unittest.TestCase):
         self.assertEquals(circle_or_square(5, 100), False)
         self.assertEquals(circle_or_square(18, 900), False)
         self.assertEquals(circle_or_square(1, 4), False)
-"""
 
+"""
+def relation_to_luke(name):
+Test.assert_equals(relation_to_luke("Darth Vader"), "Luke, I am your father.")
+Test.assert_equals(relation_to_luke("Leia"), "Luke, I am your sister.")
+Test.assert_equals(relation_to_luke("Han"), "Luke, I am your brother in law.")
+Test.assert_equals(relation_to_luke("R2D2"), "Luke, I am your droid.")
+
+# Author : Jeroen Ndh
 """
