@@ -140,3 +140,36 @@ def is_same_num(num1, num2):
     """https: // edabit.com / challenge / yfooETHj3sHoHTJsv
     no google/chat gpt"""
     return num1 == num2
+
+import math
+
+def circle_or_square(radius, area):
+    # Calculate the circumference of the circle
+    circumference = 2 * math.pi * radius
+
+    # Calculate the side length of the square from its area
+    side_length = math.sqrt(area)
+
+    # Calculate the perimeter of the square
+    square_perimeter = 4 * side_length
+
+    # Compare the circumference of the circle and the perimeter of the square
+    return circumference > square_perimeter
+
+
+def circle_or_square(radius, area):
+    """https://edabit.com/challenge/4me7LifXBwj5rhL4n this cord from Chat GPT.But i can't undestand the code"""
+    # Calculate the circumference of the circle
+    circumference = 2 * math.pi * radius
+
+    # Calculate the side length of the square from its area
+    side_length = math.sqrt(area)
+
+    # Calculate the perimeter of the square
+    square_perimeter = 4 * side_length
+
+    # Compare the circumference of the circle and the perimeter of the square
+    return circumference > square_perimeter
+
+
+

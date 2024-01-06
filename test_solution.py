@@ -139,8 +139,14 @@ class Test_Solutions(unittest.TestCase):
         self.assertEqual(is_same_num(2, 2), True)
         self.assertEqual(is_same_num(0, 6), False)
         self.assertEqual(is_same_num(2, "2"), False)
+    def circle_or_square(self):
 
-
+        self.assertEquals(circle_or_square(16, 625), True)
+        self.assertEquals(circle_or_square(8, 144), True)
+        self.assertEquals(circle_or_square(15, 400), True)
+        self.assertEquals(circle_or_square(5, 100), False)
+        self.assertEquals(circle_or_square(18, 900), False)
+        self.assertEquals(circle_or_square(1, 4), False)
 """
 
 """
