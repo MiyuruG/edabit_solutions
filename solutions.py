@@ -184,5 +184,15 @@ def relation_to_luke(name):
 
     return "Luke, I am your {}.".format(relations.get(name, 'unknown person'))
 
+def string_int(txt):
+    return int(txt)
+"""https://edabit.com/challenge/GPmoRCZKkyNtoJMcN
+this code is given by GPT.i forgot this things.i try to remember all of this codes"""
+
+def addition(num):
+	return num+1
+"""https://edabit.com/challenge/KjCS7occ9hfu5snpb
+all done by me!"""
+
 
 

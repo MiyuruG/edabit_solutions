@@ -156,4 +156,22 @@ Test.assert_equals(relation_to_luke("Han"), "Luke, I am your brother in law.")
 Test.assert_equals(relation_to_luke("R2D2"), "Luke, I am your droid.")
 
 # Author : Jeroen Ndh
+
 """
+
+"""2024/23/2"""
+def string_int(txt):
+    txt.assert_equals(string_int("6"), 6)
+    txt.assert_equals(string_int("2"), 2)
+    txt.assert_equals(string_int("10"), 10)
+    txt.assert_equals(string_int("666"), 666)
+
+    # Made by c h a e r (11level360)
+    #              <3
+
+def addition(num):
+    num.assert_equals(addition(2), 3, "2 plus 1 equals 3.")
+    num.assert_equals(addition(-9), -8, "-8 plus 1 equals 9.")
+    num.assert_equals(addition(0), 1, "0 plus 1 equals 1.")
+    num.assert_equals(addition(999), 1000, "999 plus 1 equals 1000.")
+    num.assert_equals(addition(73), 74, "73 plus 1 equals 74.")
